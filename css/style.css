@@ -1,0 +1,52 @@
+html, body {
+    margin: 0;
+    height: 100%
+}
+
+.navbar {
+    background-color: #354698;
+    border-bottom: solid #E7788D 9px;
+}
+
+.navbar-menu {
+        background-color: #354698;    
+}
+
+#name {
+    background-color: #F5F4C0;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    margin-right: 10px;
+    border-radius: 15%;
+    box-shadow: 5px 8px #7C7AB0;
+    font-weight: 600;
+    font-style: italic;
+    color: #354698
+}
+
+a.navbar-item {
+    color: #F5F4C0;
+}
+
+a.navbar-item:hover {
+    background-color: #F5F4C0;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 10%;
+    box-shadow: 2px 3px #7C7AB0;
+    font-weight: 100;
+    font-style: italic;
+    color: #354698
+}
+
+#home:hover {
+    margin-left: 3px;
+}
+
+#projects:hover {
+    margin-left: 6px;
+}
+body {
+    background-color: #F5F4C0;
+}

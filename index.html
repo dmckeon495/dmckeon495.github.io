@@ -4,11 +4,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dan McKeon</title>
+    <!-- Bulma CSS links -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <!-- Local CSS link -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>dan mckeon</title>
 </head>
 
 <body>
-    <p>hey hey hey heyooooo!!!!!!!!!!!!!!!!!!!!!</p>
+    <!--navbar, with desktop and mobile versions-->
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <p class="navbar-item is-static" id="name">dan mckeon</p>
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+                data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+
+        <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-start">
+                <a class="navbar-item" id="home">
+                    home
+                </a>
+
+                <a class="navbar-item" id="projects">
+                    projects
+                </a>
+
+                <a class="navbar-item" id="contactInfo">
+                    contact info + resume
+                </a>
+            </div>
+        </div>
+        <div class="navbar-end"></div>
+    </nav>
+    <div class="container">
+        <div class="section">
+            <div class="tile is-ancestor">
+                <div class="tile is-vertical is-8">
+                    <div class="tile">
+                        <div class="tile is-parent is-vertical">
+                            <article class="tile is-child is-primary">
+                                <p class="title">Vertical...</p>
+                                <p class="subtitle">Top tile</p>
+                            </article>
+                            <article class="tile is-child is-warning">
+                                <p class="title">...tiles</p>
+                                <p class="subtitle">Bottom tile</p>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/logic.js"></script>
 </body>
 
 </html>
