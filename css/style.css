@@ -47,6 +47,59 @@ a.navbar-item:hover {
 #projects:hover {
     margin-left: 6px;
 }
+
+
+img {
+    border: 10px solid #E7788D;
+    border-radius: 5px
+}
+
+.tile {
+    border-radius: 5px
+}
+
+.title {
+    margin-right: 10px;
+    margin-top: 6px;
+    margin-left: 10px;
+    margin-bottom: 6px;
+}
+
+#about {
+    background-color: #354698;
+}
+
+#about-sub {
+    color: #F5F4C0;
+    margin:10px;
+    padding-bottom: 10px;
+}
+
+br {
+    height: 10px
+}
+#about-title {
+    color: #F5F4C0;
+    font-style: italic;
+}
+
+#links {
+    background-color:  #E7788D;
+}
+
+#links-title {
+    color: black;
+    font-style:italic;
+    margin-bottom: 0px
+}
+
+#buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
 body {
     background-color: #F5F4C0;
 }
