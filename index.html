@@ -27,12 +27,12 @@
 
         <div id="navbarBasicExample" class="navbar-menu">
             <div class="navbar-start">
-                <a class="navbar-item" id="home">
+                <a class="navbar-item" id="home" href="#about">
                     about
                 </a>
 
-                <a class="navbar-item" id="projects">
-                    projects
+                <a class="navbar-item" id="projects" href="#portfolio">
+                    portfolio
                 </a>
 
                 <a class="navbar-item" id="contactInfo">
@@ -42,7 +42,7 @@
         </div>
         <div class="navbar-end"></div>
     </nav>
-    <div class="container">
+    <div class="container" id="about">
         <div class="section">
             <div class="tile is-ancestor">
                 <div class="tile is-vertical is-4">
@@ -65,7 +65,7 @@
                     </div>
                 </div>
                 <div class="tile is-parent">
-                    <article class="tile is-child" id="about">
+                    <article class="tile is-child" id="about-tile">
                         <p class="title" id="about-title">ABOUT DAN</p>
                         <p class="subtitle" id="about-sub">Coming from a background in literay, journalistic, and legal
                             editing, Dan McKeon is a coder-in-training in both front-end and back-end web development.
@@ -88,7 +88,63 @@
             </div>
         </div>
     </div>
+    <section class="hero" id="portfolio">
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title">
+                    PORTFOLIO
+                </h1>
+            </div>
+        </div>
+    </section>
 
+    <div class="container" id="portfolio-container">
+        <div class="columns">
+            <div class="column">
+                <p class="title">DOOSKBOT</p>
+                <hr>
+                <img src="imgs/doosk.PNG" width="500" height="250">
+                <p class="subtitle">Dooskbot is a Twitter bot that runs on JavaScript. It uses a bank of nouns,
+                    verbs, adjectives and other parts of speech to create tweets based on a collection
+                    of templates. The bot uses randomly generated numbers to pick both the type of tweet and the
+                    specific
+                    words it will use in the tweet, and then automatically sends it out to the World.
+                    <br><br>
+                    GitHub link: <a href="https://github.com/dooski/dooskbot">Dooskbot</a>
+                </p>
+            </div>
+            <div class="column">
+                <p class="title">SPACE!</p>
+                <hr>
+                <img src="imgs/space.PNG" width="500" height="250">
+                <p class="subtitle">Space! is a web application developed by a team of students for a bootcamp
+                    project. It asks for the user's name on first use and then pulls various space stats from
+                    several APIs, including multiple NASA ones, to give a list of quick hits about the cosmos,
+                    including how many humans are in space and a Martian weather report.
+                    <br><br>
+                    GitHub link: <a href="https://github.com/Bpeart90/space.io">Space!</a>
+                </p>
+            </div>
+
+            <div class="column">
+                <p class="title">WEATHER DASHBOARD</p>
+                <hr>
+                <img src="imgs/weather.png" width="500" height="250">
+                <p class="subtitle">Weather Dashboard is, as the name would suggest, a dashboard of weather!
+                    Users can search a city and get a detailed current weather report, including metrics such
+                    as current temperature, wind speed, and UV index. The dashboard also generates a five-day
+                    forecast for the chosen city and saves recent searches for quick reference.
+                    <br><br>
+                    GitHub link: <a href="https://github.com/dooski/weather-dashboard">Weather Dashboard</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <section id="footer">
+        <br>
+        <p>lovingly handmade by dan </p>
+    </section>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="js/logic.js"></script>
 </body>
