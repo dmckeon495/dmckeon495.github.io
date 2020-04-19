@@ -42,20 +42,25 @@
         </div>
         <div class="navbar-end"></div>
     </nav>
+
+    <!-- about section, utilizing Bulma's tile system -->
     <div class="container" id="about">
         <div class="section">
             <div class="tile is-ancestor">
                 <div class="tile is-vertical is-4">
                     <div class="tile">
                         <div class="tile is-parent is-vertical">
+                            <!-- headshot tile -->
                             <article class="tile is-child" id="profile">
                                 <figure class="image is-4by4">
                                     <img src="imgs/profile.jpg">
                             </article>
+                            <!-- links tile, featuring links to GitHub and LinkedIn -->
                             <article class="tile is-child" id="links">
                                 <p class="title" id="links-title">LINKS</p>
                                 <div class="container" id="buttons">
-                                    <a href="https://github.com/dooski"><img src="imgs/gh.png" width="100" height="20">
+                                    <a href="https://github.com/dooski"><img src="imgs/gh.png" width="100" height="20"
+                                            alt="picture of dan mckeon standing next to a cactus">
                                     </a>
                                     <a href="https://www.linkedin.com/in/dan-mckeon-89a625160/"><img src="imgs/li.png"
                                             width="150" height="20"> </a>
@@ -64,6 +69,7 @@
                         </div>
                     </div>
                 </div>
+                <!-- about me section -->
                 <div class="tile is-parent">
                     <article class="tile is-child" id="about-tile">
                         <p class="title" id="about-title">ABOUT DAN</p>
@@ -88,6 +94,8 @@
             </div>
         </div>
     </div>
+    <!-- portfolio section -->
+    <!-- header -->
     <section class="hero" id="portfolio">
         <div class="hero-body">
             <div class="container">
@@ -98,57 +106,62 @@
             </div>
         </div>
     </section>
-
+    <!-- three project examples as column squares -->
     <div class="container" id="portfolio-container">
         <div class="columns">
             <div class="column">
                 <p class="title">DOOSKBOT</p>
                 <hr>
-                <img src="imgs/doosk.PNG" width="500" height="250">
+                <img src="imgs/doosk.PNG" width="500" height="250" alt="picture of dooskbot twitter profile page">
                 <p class="subtitle">Dooskbot is a Twitter bot that runs on JavaScript. It uses a bank of nouns,
                     verbs, adjectives and other parts of speech to create tweets based on a collection
                     of templates. The bot uses randomly generated numbers to pick both the type of tweet and the
                     specific
                     words it will use in the tweet, and then automatically sends it out to the World.
                     <br><br>
-                    GitHub link: <a href="https://github.com/dooski/dooskbot">Git Repository</a>
+                    GitHub link: <a target="_blank" href="https://github.com/dooski/dooskbot">Git Repository</a>
                     <br>
-                    Twitter link: <a href="https://twitter.com/dooskbot">@dooskbot</a>
+                    Twitter link: <a target="_blank" href="https://twitter.com/dooskbot">@dooskbot</a>
                     </a>
                 </p>
             </div>
             <div class="column">
                 <p class="title">SPACE!</p>
                 <hr>
-                <img src="imgs/space.PNG" width="500" height="250">
+                <img src="imgs/space.PNG" width="500" height="250"
+                    alt="space website, displayed with basic information and picture from NASA">
                 <p class="subtitle">Space! is a web application developed by a team of students for a bootcamp
                     project. It asks for the user's name on first use and then pulls various space stats from
                     several APIs, including multiple NASA ones, to give a list of quick hits about the cosmos,
                     including how many humans are in space and a Martian weather report.
                     <br><br>
-                    GitHub link: <a href="https://github.com/Bpeart90/space.io">Git Repository</a>
+                    GitHub link: <a target="_blank" href="https://github.com/Bpeart90/space.io">Git Repository</a>
                     <br>
-                    Application link: <a href="https://bpeart90.github.io/space.io/">Space!</a>
+                    Application link: <a target="_blank" href="https://bpeart90.github.io/space.io/">Space!</a>
                 </p>
             </div>
 
             <div class="column">
                 <p class="title">WEATHER DASHBOARD</p>
                 <hr>
-                <img src="imgs/weather.png" width="500" height="250">
+                <img src="imgs/weather.png" width="500" height="250"
+                    alt="weather dashboard website, featuring a minimalist weather information display">
                 <p class="subtitle">Weather Dashboard is, as the name would suggest, a dashboard of weather!
                     Users can search a city and get a detailed current weather report, including metrics such
                     as current temperature, wind speed, and UV index. The dashboard also generates a five-day
                     forecast for the chosen city and saves recent searches for quick reference.
                     <br><br>
-                    GitHub link: <a href="https://github.com/dooski/weather-dashboard">Git Repository</a>
+                    GitHub link: <a target="_blank" href="https://github.com/dooski/weather-dashboard">Git
+                        Repository</a>
                     <br>
-                    Application link: <a href="https://dooski.github.io/weather-dashboard/">Weather Dashboard</a>
+                    Application link: <a target="_blank" href="https://dooski.github.io/weather-dashboard/">Weather
+                        Dashboard</a>
                 </p>
             </div>
         </div>
     </div>
-
+    <!-- contact info and resume section -->
+    <!-- header -->
     <section class="hero" id="contact">
         <div class="hero-body">
             <div class="container">
@@ -157,6 +170,7 @@
             </div>
         </div>
     </section>
+    <!-- container for contact info and resume columns -->
     <div class="container">
         <div class="columns">
             <div class="column">
@@ -172,7 +186,7 @@
             </div>
         </div>
     </div>
-
+    <!-- footer -->
     <section id="footer">
         <br>
         <p>lovingly handmade by dan </p>
