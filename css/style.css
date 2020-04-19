@@ -120,7 +120,7 @@ img {
 }
 
 .hero .title {
-    color: #F5F4C0
+    color: #F5F4C0;
 }
 
 .column {
@@ -131,8 +131,9 @@ img {
 }
 
 a {
-    color: #7C7AB0
+    color: #E7788D
 }
+
 .column .title {
     font-size: large;
     font-style: italic;
