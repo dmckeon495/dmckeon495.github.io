@@ -1,12 +1,22 @@
+html {
+    scroll-behavior: smooth;
+}
+
 html, body {
     margin: 0;
-    height: 100%;
     background-color: #F5F4C0;
 }
 
 hr {
     background-color: #E7788D;
     height: 4px
+}
+
+#burger {
+    padding: 1px;
+    margin: 10px;
+    height: 4px;
+    width: 40px;
 }
 
 .navbar {
@@ -84,6 +94,7 @@ img {
 #about-title {
     color: #F5F4C0;
     font-style: italic;
+    margin-top:10px
 }
 
 #links {
@@ -93,6 +104,7 @@ img {
 #links-title {
     color: black;
     font-style:italic;
+    margin-top:10px;
     margin-bottom: 0px
 }
 

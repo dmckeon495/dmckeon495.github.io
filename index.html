@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="has-navbar-fixed-top" lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -14,14 +14,14 @@
 
 <body>
     <!--navbar, with desktop and mobile versions-->
-    <nav class="navbar" role="navigation" aria-label="main navigation">
+    <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
             <p class="navbar-item is-static" id="name">dan mckeon</p>
             <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
                 data-target="navbarBasicExample">
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
+                <hr aria-hidden="true" id="burger">
+                <hr aria-hidden="true" id="burger">
+                <hr aria-hidden="true" id="burger">
             </a>
         </div>
 
@@ -35,7 +35,7 @@
                     portfolio
                 </a>
 
-                <a class="navbar-item" id="contactInfo">
+                <a class="navbar-item" id="contactInfo" href="#contact">
                     contact info + resume
                 </a>
             </div>
@@ -92,7 +92,9 @@
         <div class="hero-body">
             <div class="container">
                 <h1 class="title">
+                    <br>
                     PORTFOLIO
+                    <br><br>
                 </h1>
             </div>
         </div>
@@ -110,7 +112,10 @@
                     specific
                     words it will use in the tweet, and then automatically sends it out to the World.
                     <br><br>
-                    GitHub link: <a href="https://github.com/dooski/dooskbot">Dooskbot</a>
+                    GitHub link: <a href="https://github.com/dooski/dooskbot">Git Repository</a>
+                    <br>
+                    Twitter link: <a href="https://twitter.com/dooskbot">@dooskbot</a>
+                    </a>
                 </p>
             </div>
             <div class="column">
@@ -122,7 +127,9 @@
                     several APIs, including multiple NASA ones, to give a list of quick hits about the cosmos,
                     including how many humans are in space and a Martian weather report.
                     <br><br>
-                    GitHub link: <a href="https://github.com/Bpeart90/space.io">Space!</a>
+                    GitHub link: <a href="https://github.com/Bpeart90/space.io">Git Repository</a>
+                    <br>
+                    Application link: <a href="">Space!</a>
                 </p>
             </div>
 
@@ -135,11 +142,21 @@
                     as current temperature, wind speed, and UV index. The dashboard also generates a five-day
                     forecast for the chosen city and saves recent searches for quick reference.
                     <br><br>
-                    GitHub link: <a href="https://github.com/dooski/weather-dashboard">Weather Dashboard</a>
+                    GitHub link: <a href="https://github.com/dooski/weather-dashboard">Git Repository</a>
+                    <br>
+                    Application link: <a href="">Weather Dashboard</a>
                 </p>
             </div>
         </div>
     </div>
+
+    <section class="hero" id="contact">
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title">CONTACT INFO + RESUME</h1>
+            </div>
+        </div>
+    </section>
 
     <section id="footer">
         <br>
