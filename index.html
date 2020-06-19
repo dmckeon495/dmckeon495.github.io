@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="has-navbar-fixed-top" lang="en">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -14,7 +14,7 @@
 
 <body>
     <!--navbar, with desktop and mobile versions-->
-    <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+    <nav class="navbar" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
             <p class="navbar-item is-static" id="name">dan mckeon</p>
             <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
@@ -44,6 +44,8 @@
     </nav>
 
     <!-- about section, utilizing Bulma's tile system -->
+    <br>
+    <br>
     <div class="container" id="about">
         <div class="section">
             <div class="tile is-ancestor">
@@ -74,19 +76,20 @@
                     <article class="tile is-child" id="about-tile">
                         <p class="title" id="about-title">ABOUT DAN</p>
                         <p class="subtitle" id="about-sub">Coming from a background in literay, journalistic, and legal
-                            editing, Dan McKeon is a coder-in-training in both front-end and back-end web development.
+                            editing, Dan McKeon is an LGBTQ coder-in-training in both front-end and back-end web
+                            development.
                             Dan graduated from the University at Buffalo in 2018, spending three years working for
                             <i>The Spectrum</i>, the student-run newspaper, as a reporter, copy chief and managing
                             editor, as well as three years as an editor for <i>NAME Magazine</i>, the literary magazine.
                             <br><br>
                             Out of college, Dan worked for General Code editing municipal ordinances into code books
-                            available online in Rochester, NY. Dan currently works in the Philadelphia suburbs as a
+                            available online in Rochester, NY. They currently work in the Philadelphia suburbs as a
                             barista for Starbucks and as a communications coordinator for
                             the Church of the Holy Apostles while learning full-stack web development
                             through the coding bootcamp at UPenn.
                             <br><br>
-                            Dan also enjoy reading and writing poetry, playing video games, and scripting Twitter bots
-                            to tell jokes.
+                            Dan also enjoys reading and writing poetry, playing and modding video games, and programming
+                            a Twitter bot to dunk on them.
                         </p>
                         </figure>
                     </article>
@@ -100,28 +103,29 @@
         <div class="hero-body">
             <div class="container">
                 <h1 class="title">
-                    <br>
                     PORTFOLIO
                 </h1>
             </div>
         </div>
     </section>
+    <!-- 631-806-4870 -->
     <!-- three project examples as column squares -->
     <div class="container" id="portfolio-container">
         <div class="columns">
             <div class="column">
-                <p class="title">DOOSKBOT</p>
+                <p class="title">GLOBE PLOTTER</p>
                 <hr>
-                <img src="imgs/doosk.PNG" width="500" height="250" alt="picture of dooskbot twitter profile page">
-                <p class="subtitle">Dooskbot is a Twitter bot that runs on JavaScript. It uses a bank of nouns,
-                    verbs, adjectives and other parts of speech to create tweets based on a collection
-                    of templates. The bot uses randomly generated numbers to pick both the type of tweet and the
-                    specific
-                    words it will use in the tweet, and then automatically sends it out to the World.
+                <img src="imgs/globe.PNG" width="500" height="250" alt="trip screen, featuring philadelphia locations">
+                <p class="subtitle">Globe Plotter is a full-stack web application developed by a team of student
+                    programmers
+                    that helps the user plan out a vacation to different cities. The app automatically gives five
+                    options for each type of places a traveler would want to visit, including restaurants, landmarks and
+                    tours. The app allows users to
+                    make accounts that will save and track their trips automatically.
                     <br><br>
-                    GitHub link: <a target="_blank" href="https://github.com/dooski/dooskbot">Git Repository</a>
+                    GitHub link: <a target="_blank" href="https://github.com/ravalash/Globe-Plotter">Git Repository</a>
                     <br>
-                    Twitter link: <a target="_blank" href="https://twitter.com/dooskbot">@dooskbot</a>
+                    Application link: <a target="_blank" href="http://theglobeplotter.com/">Globe Plotter</a>
                     </a>
                 </p>
             </div>
@@ -130,8 +134,8 @@
                 <hr>
                 <img src="imgs/space.PNG" width="500" height="250"
                     alt="space website, displayed with basic information and picture from NASA">
-                <p class="subtitle">Space! is a web application developed by a team of students for a bootcamp
-                    project. It asks for the user's name on first use and then pulls various space stats from
+                <p class="subtitle">Space! is a web application developed by a team of student programmers. It asks for
+                    the user's name on first use and then pulls various space stats from
                     several APIs, including multiple NASA ones, to give a list of quick hits about the cosmos,
                     including how many humans are in space and a Martian weather report.
                     <br><br>
@@ -140,7 +144,27 @@
                     Application link: <a target="_blank" href="https://bpeart90.github.io/space.io/">Space!</a>
                 </p>
             </div>
+            <div class="column">
+                <p class="title">DOOSKBOT</p>
+                <hr>
+                <img src="imgs/doosk.PNG" width="500" height="250" alt="picture of dooskbot twitter profile page">
+                <p class="subtitle">Dooskbot is a Twitter bot that runs on Node.js made as a side project to try out
+                    concepts learned in class. It uses a bank of nouns,
+                    verbs, adjectives and other parts of speech to create tweets based on a collection
+                    of templates. The bot uses RNG to pick both the type of tweet and the
+                    specific
+                    words it will use in the tweet, as well as replies, and then automatically sends it out to the
+                    World.
+                    <br><br>
+                    GitHub link: <a target="_blank" href="https://github.com/dooski/dooskbot">Git Repository</a>
+                    <br>
+                    Twitter link: <a target="_blank" href="https://twitter.com/dooskbot">@dooskbot</a>
+                    </a>
+                </p>
+            </div>
 
+        </div>
+        <div class="columns">
             <div class="column">
                 <p class="title">WEATHER DASHBOARD</p>
                 <hr>
@@ -158,6 +182,38 @@
                         Dashboard</a>
                 </p>
             </div>
+            <div class="column">
+                <p class="title">SQUAD UP</p>
+                <hr>
+                <img src="imgs/squad.PNG" width="500" height="250"
+                    alt="node terminal display of attributes for a development team">
+                <p class="subtitle">Squad Up is a Node.js application that goes through a series of questions to
+                    help the user assemble a simple HTML directory for their team. The app uses jest for testing
+                    purposes
+                    as well as inquirer to ask and record the answers to a series of prompts, and then generates
+                    an HTML page using those recorded prompts.
+                    <br><br>
+                    GitHub link: <a target="_blank" href="https://github.com/dooski/squad-up">Git Repository</a>
+                    <br>
+                </p>
+            </div>
+
+            <div class="column">
+                <p class="title">NOTE TAKER</p>
+                <hr>
+                <img src="imgs/note.png" width="500" height="250"
+                    alt="weather dashboard website, featuring a minimalist weather information display">
+                <p class="subtitle">Note Taker is an app that simply takes and saves any notes the user wants and
+                    displays them in a clear-cut list for quick reference. The app takes a title and a body for each
+                    note and saves them on a server-side database.
+                    <br><br>
+                    GitHub link: <a target="_blank" href="https://github.com/dooski/note-taker">Git
+                        Repository</a>
+                    <br>
+                    Application link: <a target="_blank" href="https://radiant-temple-41601.herokuapp.com/">Note
+                        Taker</a>
+                </p>
+            </div>
         </div>
     </div>
     <!-- contact info and resume section -->
@@ -165,7 +221,6 @@
     <section class="hero" id="contact">
         <div class="hero-body">
             <div class="container">
-                <br>
                 <h1 class="title">CONTACT INFO + RESUME</h1>
             </div>
         </div>
@@ -177,7 +232,6 @@
                 <p class="title">CONTACT INFO</p>
                 <hr>
                 <p class="subtitle"><i>email:</i> dmckeon495@gmail.com</p>
-                <p class="subtitle"><i>phone:</i> 516.297.0027</p>
             </div>
             <div class="column">
                 <p class="title">RESUME</p>
