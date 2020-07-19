@@ -1,9 +1,14 @@
 import React from "react";
 import Hero from "../components/Hero";
+import AboutInfo from "../components/AboutInfo"
 
 function About() {
     return (
-        <Hero title="ABOUT" />
+        <div>
+            <Hero title="ABOUT" />
+            <br></br>
+            <AboutInfo />
+        </div>
     )
 }
 
