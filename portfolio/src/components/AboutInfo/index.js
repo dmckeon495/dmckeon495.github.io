@@ -32,7 +32,7 @@ function AboutInfo() {
                     </div>
                     <div className="tile is-parent">
                         <article className="tile is-child" id="about-tile">
-                            <p className="title" id="about-title">ABOUT DAN</p>
+                            <p className="title" id="about-title">DAN MCKEON</p>
                             <p className="subtitle" id="about-sub">Coming from a background in literay, journalistic, and legal
                             editing, Dan McKeon is an LGBTQ coder-in-training in both front-end and back-end web
                             development.
